@@ -1,6 +1,6 @@
 # Archivo: chains.py (CORREGIDO para incluir Cotización)
 
-from models.data_models import PropuestaCurso, Syllabus, Cotizacion # <-- Importamos Cotizacion
+from data_models import PropuestaCurso, Syllabus, Cotizacion # <-- Importamos Cotizacion
 from prompts import PROMPT_EXTRACCION, PROMPT_SYLLABUS
 # IMPORTACIÓN CORREGIDA: Usamos el conector de Google
 from langchain_google_genai import ChatGoogleGenerativeAI 
