@@ -2,7 +2,7 @@
 
 # Importamos funciones individuales para controlar el flujo paso a paso
 from chains import crear_cadena_extraccion, crear_cadena_syllabus, setup_llm, obtener_json_string
-from models.data_models import Syllabus, Cotizacion
+from data_models import Syllabus, Cotizacion
 from typing import Optional
 from config import settings 
 
