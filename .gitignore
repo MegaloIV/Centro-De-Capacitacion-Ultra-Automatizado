@@ -1,2 +1,15 @@
-# Carpeta entorno
-venv
+# Archivo .gitignore
+
+# 1. Variables de Entorno y Secretos
+.env
+
+# 2. Entorno Virtual de Python (¡También es crucial ignorarlo!)
+venv/
+
+# 3. Archivos de Python y caché
+__pycache__/
+*.pyc
+
+# 4. Base de Datos Vectorial (Memoria a Largo Plazo)
+# Los vectores son generados localmente y no deben versionarse.
+vector_db/
